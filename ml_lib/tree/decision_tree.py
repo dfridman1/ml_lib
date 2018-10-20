@@ -4,7 +4,7 @@ from ml_lib.base.estimator import Estimator
 
 
 class DecisionTree(Estimator):
-    def __init__(self, max_depth):
+    def __init__(self, max_depth=-1):
         self.max_depth = max_depth
         self._node = None
 
